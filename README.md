@@ -189,7 +189,18 @@ python process_dance.py data\dance.mp4 `
   --head-facing-camera
 ```
 
-每个目录都会包含各自的 full VMD、三维预览和 MMD 视频。Blender 视频一般命名为 `maid_aris_*.mp4`。
+该命令的输出效果如下：
+
+**2D 姿态预览**（`pose_2d_preview.mp4`，SDPose COCO17 转 BODY18）：
+
+<video src="output/sdpose_camera/pose_2d_preview.mp4" controls muted width="100%"></video>
+
+**Blender MMD 渲染结果**（`maid_aris_sdpose_camera.mp4`，头部始终面向镜头）：
+
+<video src="output/sdpose_camera/maid_aris_sdpose_camera.mp4" controls muted width="100%"></video>
+
+
+示例中的 MMD 模型「女仆爱丽丝（maid_aris）」来自 [冬瓜炒菜](https://www.aplaybox.com/details/model/KwWftXgt8B8P)，使用和发布请遵守原作者的使用条款。
 
 ## 分阶段运行
 
