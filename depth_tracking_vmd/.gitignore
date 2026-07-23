@@ -1,0 +1,26 @@
+.idea/
+*.pyc
+*~
+*.so
+*.cpp
+TAGS
+GTAGS
+GRTAGS
+GPATH
+
+build/
+__pycache__/
+
+# folders
+saved_sessions/
+applications/predictor/
+applications/testdata/
+data/video/
+tensorflow/data/
+tensorflow/data2/
+tensorflow/predict_video2.py
+
+born/*.csv
+
+*.html
+VideoToDepthSelf.bat

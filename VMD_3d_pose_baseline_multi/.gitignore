@@ -1,0 +1,32 @@
+.idea/
+*.pyc
+*~
+*.so
+*.cpp
+TAGS
+GTAGS
+GRTAGS
+GPATH
+
+build/
+__pycache__/
+
+# folders
+saved_sessions/
+applications/predictor/
+applications/testdata/
+data/video/
+data/vmd/
+
+born/*.csv
+
+*.html
+3DToVmd_semi.bat
+3DToVmdSelf.bat
+slope/slope_upper2 - コピー.vmd
+slope/slope_upper2_ジバニャン.vmd
+.vscode/launch.json
+.vscode/settings.json
+depth1.txt
+depth2.txt
+depth_value_avgs.txt

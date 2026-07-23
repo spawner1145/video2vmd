@@ -1,0 +1,51 @@
+# Install the CUDA PyTorch wheel first, then install this file:
+# pip install torch torchvision torchaudio --upgrade --index-url https://download.pytorch.org/whl/cu130
+#
+# PyTorch is intentionally not pinned here because the correct wheel depends
+# on the installed CUDA runtime and platform.
+
+# Core numerical/video runtime
+numpy>=2.0
+scipy>=1.14
+opencv-python>=4.10
+scikit-image>=0.24
+Pillow>=10.2
+imageio>=2.35
+imageio-ffmpeg>=0.6
+tqdm>=4.66
+matplotlib>=3.8
+pandas>=2.2
+protobuf>=4.25
+
+# OpenPose PyTorch and MotionAGFormer
+easydict>=1.13
+PyYAML>=6.0
+timm>=1.0.9
+filterpy>=1.4.5
+yacs>=0.1.8
+numba>=0.60
+torchprofile>=0.0.4
+smplx>=0.1.28
+
+# SDPose-OOD diffusion inference and YOLO detector
+diffusers>=0.30
+transformers>=4.48
+accelerate>=0.34
+safetensors>=0.4
+huggingface-hub>=0.22
+ultralytics>=8.3
+
+# UniDepth local package and its runtime dependencies
+einops>=0.7
+h5py>=3.10
+trimesh>=4.0
+tables>=3.9
+tabulate>=0.9
+termcolor>=2.4
+wandb>=0.17
+
+# Original VMD converter
+PyQt5>=5.15.11
+
+# Local UniDepth package. Install after the dependencies above.
+-e ./UniDepth
